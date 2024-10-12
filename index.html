@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-Powered Language Trainer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>AI-Powered Personalized Language Trainer</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#train">Start Training</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="section">
+        <h2>Welcome to Your Personalized Language Trainer</h2>
+        <p>Improve your English with real-time AI feedback on grammar, vocabulary, and posture.</p>
+        <button onclick="startTraining()">Start Training Now</button>
+    </section>
+
+    <section id="features" class="section">
+        <h2>Features</h2>
+        <ul>
+            <li>Real-time grammar correction using AI</li>
+            <li>Vocabulary enhancement with context-based suggestions</li>
+            <li>Posture detection and feedback</li>
+            <li>Confidence analysis through sentiment detection</li>
+        </ul>
+    </section>
+
+    <section id="train" class="section">
+        <h2>Train Your English Skills</h2>
+        <p>Speak into your microphone, and our AI will provide real-time feedback on your grammar, vocabulary, and posture.</p>
+        <textarea id="speechInput" placeholder="Start speaking..." rows="5"></textarea>
+        <button onclick="analyzeSpeech()">Analyze Speech</button>
+        <div id="feedback"></div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <p>Email: support@language-trainer.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 AI-Powered Language Trainer</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
